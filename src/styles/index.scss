@@ -31,3 +31,14 @@ body {
     background-color: rgba($color-firm7, 0.7);
   }
 }
+
+.button--secondary {
+  background-color: $color-firm7;
+  &:hover,
+  &:focus {
+    background-color: $color-firm3;
+  }
+  &:active {
+    background-color: rgba($color-firm3, 0.7);
+  }
+}
