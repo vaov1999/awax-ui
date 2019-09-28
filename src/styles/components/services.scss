@@ -1,0 +1,42 @@
+@import "../variables.scss";
+
+.services {
+  text-align: center;
+}
+
+.services__subtitle {
+  margin-top: 8px;
+}
+
+.services__items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+
+.services__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-left: 1px solid $color-firm5;
+  padding: 17px 27px 14px;
+  &:last-child {
+    border-right: 1px solid $color-firm5;
+  }
+}
+
+.services__item-icon {
+  width: 59px;
+  height: 59px;
+  object-fit: contain;
+}
+
+.services__item-title {
+  margin-top: 34px;
+}
+
+.services__item-description {
+  margin-top: 5px;
+  font-size: $font-size9;
+  color: $color-firm6;
+}
