@@ -1,0 +1,44 @@
+@import "../variables.scss";
+
+.some-facts {
+  text-align: center;
+}
+
+.some-facts__subtitle {
+  margin-top: 8px;
+}
+
+.some-facts__items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+
+.some-facts__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 27px;
+}
+
+.some-facts__item-title {
+  color: $color-firm3;
+  &:after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 3px;
+    background: $color-firm6;
+    margin: 8px auto 7px;
+  }
+}
+
+.some-facts__item-subtitle {
+  white-space: pre-line;
+}
+
+.some-facts__item-description {
+  margin-top: 5px;
+  font-size: $font-size9;
+  color: $color-firm6;
+}
