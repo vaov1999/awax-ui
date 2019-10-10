@@ -1,0 +1,63 @@
+@import "../variables.scss";
+
+$item-margin: 15px;
+
+.our-projects {
+  text-align: center;
+}
+
+.our-projects__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: #{38px - $item-margin} -#{$item-margin} -#{$item-margin};
+}
+
+.our-projects__item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 255px;
+  margin: $item-margin;
+}
+
+.our-projects__item-img {
+  display: block;
+  width: 100%;
+}
+
+.our-projects__item-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  background-color: rgba($color-firm1, 0.75);
+  color: $color-firm2;
+  opacity: 0;
+  transition: opacity $animation-time;
+  &:hover,
+  &:focus {
+    opacity: 1;
+  }
+  &:active {
+    opacity: 0.9;
+  }
+}
+
+.our-projects__item-title {
+  font-weight: 400;
+}
+
+.our-projects__item-description {
+  margin-top: 12px;
+}
+
+.our-projects__btn {
+  margin: 30px auto 0;
+}
