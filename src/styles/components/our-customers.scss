@@ -1,0 +1,12 @@
+.our-customers {
+  display: flex;
+  justify-content: center;
+}
+
+.our-customers__item {
+  display: block;
+  flex: 0 0 110px;
+  height: 39px;
+  object-fit: contain;
+  margin: 0 42px;
+}

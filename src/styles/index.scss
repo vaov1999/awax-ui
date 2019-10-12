@@ -9,6 +9,7 @@ body {
   font-family: $font-family1;
   font-size: $font-size8;
   color: $color-firm9;
+  background-color: $color-firm21;
 }
 
 h1 {
@@ -59,6 +60,17 @@ p {
 .app__section--dark {
   background: $color-firm1;
   color: $color-firm2;
+}
+
+.app__section--light {
+  background-color: $color-firm2;
+  border-top: 1px solid $color-firm10;
+  border-bottom: 1px solid $color-firm10;
+}
+
+.app__section--our-customer {
+  padding-top: 45px;
+  padding-bottom: 48px;
 }
 
 .app__section--price {
