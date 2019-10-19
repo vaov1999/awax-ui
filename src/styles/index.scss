@@ -4,7 +4,9 @@
 @import "./fonts.scss";
 @import "./components/typography.scss";
 @import "./components/index.scss";
-
+.S-BUTTONS{
+  display: none;
+}
 html,
 body {
   font-family: $font-family1;
