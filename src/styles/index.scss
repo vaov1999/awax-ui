@@ -1,12 +1,12 @@
-@import "./clear";
-@import "./variables";
-@import "./mixins";
+@import "./clear.scss";
+@import "./variables.scss";
+@import "./mixins.scss";
 @import "./fonts.scss";
-@import "./components/typography.scss";
+@import "./typography.scss";
 @import "./components/index.scss";
-.S-BUTTONS{
-  display: none;
-}
+
+$section-content-max-width: 1132px;
+
 html,
 body {
   font-family: $font-family1;
@@ -35,12 +35,27 @@ body {
   padding-bottom: 48px;
 }
 
+.app__section--our-team {
+  background: url("../assets/i/s/our-team-background.jpg") no-repeat 50%/ cover;
+  .app__section-title {
+    color: $color-firm2;
+  }
+}
+
 .app__section--price {
   background: $color-firm11;
 }
 
+.app__section--tell-about-us {
+  padding-top: 21px;
+  padding-bottom: 21px;
+  background-color: $color-firm15;
+  border-top: 1px solid $color-firm10;
+  border-bottom: 1px solid $color-firm10;
+}
+
 .app__section-content {
-  max-width: 1132px;
+  max-width: $section-content-max-width;
   margin: 0 auto;
 }
 
@@ -52,16 +67,4 @@ body {
   margin-top: 8px;
   text-align: center;
   color: $color-firm4;
-}
-.app__section--our-team{
-  background: url("../assets/i/s/our-team-background.jpg") no-repeat 50%/ cover;
-  .app__section-title{
-    color: $color-firm2;
-  }
-}
-.app__section--tell-about-us{
-  padding-top: 21px;
-  padding-bottom: 21px;
-  border: 1px solid $color-firm10;
-  background: $color-firm15;
 }
