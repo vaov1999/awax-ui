@@ -1,0 +1,49 @@
+@import "./variables.scss";
+
+h1 {
+  font-size: $font-size1;
+}
+
+h2 {
+  font-size: $font-size2;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: $font-size3;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: $font-size4;
+}
+
+h5 {
+  font-size: $font-size5;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h6 {
+  font-size: $font-size6;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 1.33;
+}
+
+p {
+  line-height: 1.79;
+  font-weight: 300;
+}
+
+ul,
+ol {
+  font-weight: 300;
+}
+
+.subtitle {
+  font-size: $font-size7;
+  font-weight: 600;
+  text-transform: uppercase;
+}

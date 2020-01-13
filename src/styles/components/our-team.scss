@@ -1,43 +1,47 @@
 @import "../variables.scss";
+
 $item-margin: 15px;
 $social-item-margin: 3px;
+
 .our-team {
   text-align: center;
 }
+
 .our-team__items {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 40px -$item-margin -#{$item-margin};
+  margin: 40px - $item-margin -#{$item-margin} -#{$item-margin};
 }
+
 .our-team__item {
   display: flex;
-  flex-basis: 350px;
   flex-direction: column;
   align-items: center;
+  flex-basis: 350px;
+  padding: 48px 20px 43px;
   margin: $item-margin;
   background-color: $color-firm2;
-  padding: 48px 20px 43px;
 }
+
 .our-team__avatar {
   flex-basis: 185px;
 }
+
 .our-team__name {
-  margin-top: 40px;
   font-weight: 600;
-  color: $color-firm9;
-  font-size: $font-size5;
-  text-transform: uppercase;
+  margin-top: 38px;
 }
-.our-team__position{
-  margin-top: 6px;
-  font-weight: 300;
-  color: $color-firm9;
+
+.our-team__position {
+  margin-top: 4px;
+  font-weight: 400;
   text-transform: none;
 }
+
 .our-team__socials {
   display: flex;
-  margin: 35px -#{$social-item-margin};
+  margin: 35px -#{$social-item-margin} 0;
 }
 
 .our-team__socials-item {

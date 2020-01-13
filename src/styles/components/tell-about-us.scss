@@ -1,0 +1,59 @@
+@import "../variables.scss";
+
+$item-margin: 20px;
+
+.tell-about-us {
+  display: flex;
+  justify-content: center;
+}
+
+.tell-about-us__title {
+  display: flex;
+  align-items: center;
+  color: $color-firm4;
+  margin-right: 60px;
+}
+
+.tell-about-us__title-icon {
+  width: 23px;
+  margin-right: 15px;
+}
+
+.tell-about-us__items {
+  display: flex;
+  margin: 0 -#{$item-margin}
+}
+
+.tell-about-us__item {
+  display: flex;
+  align-items: center;
+  margin: 0 $item-margin;
+  font-size: $font-size10;
+  color: $color-firm4;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.tell-about-us__item-btn {
+  margin-right: 5px;
+}
+
+.tell-about-us__btn--twitter {
+  background-color: $color-background-twitter;
+}
+
+.tell-about-us__btn--linkedin {
+  background-color: $color-background-linkedin;
+}
+
+.tell-about-us__btn--facebook {
+  background-color: $color-background-facebook;
+}
+
+.tell-about-us__btn--google-plus {
+  background-color: $color-background-google-plus;
+}
+
+.tell-about-us__btn--pinterest {
+  background-color: $color-background-pinterest;
+}
